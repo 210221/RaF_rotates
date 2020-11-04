@@ -1,0 +1,19 @@
+body {
+  padding: 64px;
+}
+
+img {
+  width: 64px;
+  height: 64px;
+
+  animation: spin .8s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
